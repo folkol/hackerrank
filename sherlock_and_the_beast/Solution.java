@@ -8,7 +8,7 @@ public class Solution {
 
     public static void main(String[] args) {
         @SuppressWarnings("unused")
-            int numTests = input.nextInt();
+        int numTests = input.nextInt();
 
         while (input.hasNextInt()) {
             System.out.println(findDecentNumber(input.nextInt()));
