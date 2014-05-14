@@ -1,4 +1,4 @@
-Generate test input on a mac: echo 100000 > test.in; jot -r 100000  1 100000 >> test.in
+Generate test input (Mac): echo 100000 > test.in; jot -r 100000 1 100000 >> test.in
 Build: javac Solution.java
 Run test: time java Solution < test.in > test.out
 
